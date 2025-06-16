@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <div id="name-input-container">
+        <h1>Tic Tac Toe: Edisi Strategi</h1>
+        <div class="input-group">
+            <label for="player1-name">Nama Pemain 1:</label>
+            <input type="text" id="player1-name" placeholder="Masukkan nama...">
+        </div>
+        <div class="input-group">
+            <label for="player2-name">Nama Pemain 2:</label>
+            <input type="text" id="player2-name" placeholder="Masukkan nama...">
+        </div>
+        <button id="start-game-btn">Mulai Permainan</button>
+    </div>
+
+    <div id="game-wrapper" style="display: none;">
+        <div id="player1-panel" class="player-panel">
+            <h2 id="p1-display-name">Player 1</h2>
+            <p>Pilih Avatarmu:</p>
+            <div id="p1-avatar-options" class="avatar-options">
+                <button class="avatar-btn">🍃</button>
+                <button class="avatar-btn">🪨</button>
+                <button class="avatar-btn">🌸</button>
+            </div>
+            <p>Bidak Tersedia:</p>
+            <div id="p1-pieces" class="pieces-container">
+                </div>
+        </div>
+
+        <div class="main-game-area">
+            <div class="container">
+                <div class="game">
+                    <button class="box"></button> <button class="box"></button> <button class="box"></button>
+                    <button class="box"></button> <button class="box"></button> <button class="box"></button>
+                    <button class="box"></button> <button class="box"></button> <button class="box"></button>
+                </div>
+            </div>
+            <button id="restart">Mulai Ulang</button>
+        </div>
+
+        <div id="player2-panel" class="player-panel">
+            <h2 id="p2-display-name">Player 2</h2>
+            <p>Pilih Avatarmu:</p>
+            <div id="p2-avatar-options" class="avatar-options">
+                <button class="avatar-btn">🍃</button>
+                <button class="avatar-btn">🪨</button>
+                <button class="avatar-btn">🌸</button>
+            </div>
+            <p>Bidak Tersedia:</p>
+            <div id="p2-pieces" class="pieces-container">
+                </div>
+        </div>
+    </div>
+
+    <div id="win-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <h2 id="modal-winner-text">Pemenang!</h2>
+            <p>Selamat, kamu hebat!</p>
+            <button id="modal-restart-btn">Main Lagi</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
