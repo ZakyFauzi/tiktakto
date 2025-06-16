@@ -1,74 +1,59 @@
 # Tik Tek Tok???
 
-[**🚀 Letsgoo mainn 🚀**](https://tiktektok.netlify.app/)
+## [**🚀 gasin main letsgooo 🚀**](https://tiktektok.netlify.app/)
 
 -----
 
-Selamat datang di *Tik Tek Tok*\! Ini bukan sekadar game Tic Tac Toe biasa. Proyek ini adalah imajinasi ulang dari game klasik yang menggabungkan elemen strategi seperti catur atau dam dengan sistem permainan yang dinamis dan antarmuka pengguna yang modern.
+Game klasik, tapi di-upgrade dikit. Cocok buat mulai cek cok sama teman. 🎮
 
-## Live Demo
+## Konsep Gamenya Gimana? 🤔
 
-Kamu bisa langsung mencoba game ini melalui link berikut:
+Intinya, ini bukan cuma soal ngisi kotak. Lo harus mutusin di setiap giliran: mau nurunin bidak baru dari stok, atau gerakin bidak yang udah ada di papan buat cari posisi lebih bagus. Setiap langkah bakal nentuin menang atau kalah.
 
-**[https://tiktektok.netlify.app/](https://tiktektok.netlify.app/)**
+## Fitur-Fitur Utamanya ✨
 
-## Deskripsi
+  - **Custom Nama Pemain** 🧑‍🤝‍🧑: Biar jelas siapa yang pro pas gamenya selesai.
+  - **Sistem Avatar** 🎨: Ganti 'X' dan 'O' pake avatar 🍃, 🪨, atau 🌸. Giliran pilih avatar diacak biar fair.
+  - **Gameplay Hibrida** 🧠: Kombinasi unik antara menempatkan dan memindahkan bidak. Lo punya kontrol penuh atas 3 bidak lo.
+  - **Desain Modern** 📱: Tampilan pakai gaya Neobrutalism yang clean dan tegas. Gamenya juga responsif, jadi lancar dimainin di device mana aja.
+  - **Notifikasi Efisien** 🔔: Info giliran pakai *toast notification* yang nggak ganggu. Kalo menang, baru muncul *pop-up* gede buat konfirmasi.
 
-Game ini dirancang untuk dua pemain, di mana setiap pemain tidak hanya berusaha untuk membuat barisan tiga bidak, tetapi juga harus memikirkan kapan harus menempatkan bidak baru atau memindahkan bidak yang sudah ada di papan. Dengan fitur personalisasi nama dan avatar, serta gaya visual **Neobrutalism** yang tegas, game ini menawarkan pengalaman yang segar dan menantang.
+## Teknologi yang Dipakai 💻
 
-## Fitur Utama
+Dibangun pake *stack* fundamental yang simpel dan kuat:
 
-  - **Personalisasi Pemain**: Masukkan nama untuk setiap pemain untuk pengalaman yang lebih personal.
-  - **Sistem Avatar Unik**: Ganti simbol 'X' dan 'O' klasik dengan avatar emoji yang seru (🍃, 🪨, 🌸).
-      - Giliran memilih avatar ditentukan secara acak setelah nama diinput.
-  - **Gameplay Strategis Hibrida**:
-      - **Fase Fleksibel**: Tidak ada fase menaruh yang kaku. Pemain bebas memilih antara menempatkan bidak baru dari "gudang" atau memindahkan bidak yang sudah ada di papan pada setiap giliran.
-      - **Manajemen Bidak**: Setiap pemain memiliki 3 bidak yang bisa dikelola, memberikan lapisan strategi tambahan.
-  - **Antarmuka Modern & Responsif**:
-      - **Gaya Neobrutalism**: Tampilan visual yang tegas, dengan border tebal, bayangan kaku, dan palet warna yang menarik.
-      - **Desain Responsif**: Layout beradaptasi dengan mulus dari desktop ke perangkat mobile, memastikan pengalaman bermain yang optimal di semua ukuran layar.
-  - **Sistem Notifikasi Modern**:
-      - **Toast Notification**: Pesan giliran dan instruksi muncul sebagai notifikasi singkat yang tidak mengganggu alur permainan.
-      - **Pop-up Kemenangan**: Layar kemenangan yang jelas muncul sebagai modal overlay saat permainan berakhir.
+  - **HTML5**
+  - **CSS3**
+  - **JavaScript (ES6+)**
 
-## Teknologi yang Digunakan
+## Cara Jalanin di Lokal 🛠️
 
-Proyek ini dibangun murni dengan teknologi web fundamental, tanpa memerlukan *framework* atau *library* eksternal.
+Nggak perlu setup ribet. Cukup ikutin langkah ini:
 
-  - **HTML5**: Sebagai struktur dasar dari aplikasi web.
-  - **CSS3**: Untuk styling, layouting (Flexbox & Grid), animasi, dan desain responsif (Media Queries).
-  - **JavaScript (ES6+)**: Untuk semua logika permainan, manipulasi DOM, manajemen *state*, dan interaktivitas.
-
-## Cara Menjalankan Proyek Secara Lokal
-
-Kamu tidak memerlukan instalasi atau *build tools* yang rumit untuk menjalankan proyek ini.
-
-1.  **Clone repositori ini:**
+1.  **Clone repo:**
 
     ```bash
     git clone https://github.com/ZakyFauzi/tiktakto.git
     ```
 
-2.  **Buka direktori proyek:**
+2.  **Masuk ke direktori:**
 
     ```bash
     cd tiktakto
     ```
 
-3.  **Buka file `index.html`:**
-    Langsung buka file `index.html` di browser pilihanmu (Google Chrome, Firefox, dll).
+3.  **Buka `index.html`:**
+    Langsung buka file `index.html` di browser. Selesai.
 
-    Atau, jika kamu menggunakan Visual Studio Code dengan ekstensi "Live Server", kamu bisa klik kanan pada file `index.html` dan pilih "Open with Live Server".
+## Cara Main 📖
 
-## Cara Bermain
-
-1.  **Input Nama**: Masukkan nama untuk Pemain 1 dan Pemain 2, lalu klik "Mulai Permainan".
-2.  **Pilih Avatar**: Pemain yang gilirannya ditentukan secara acak akan memilih avatar terlebih dahulu. Pemain kedua kemudian memilih dari sisa avatar yang tersedia.
-3.  **Bermain**:
-      - Pada giliranmu, kamu memiliki dua pilihan:
-          - **Menaruh Bidak Baru**: Klik salah satu bidakmu yang tersedia di panel samping, lalu klik kotak kosong di papan.
-          - **Memindahkan Bidak**: Klik salah satu bidakmu yang sudah ada di papan, lalu klik kotak kosong lain sebagai tujuan.
-4.  **Menang**: Pemain pertama yang berhasil membentuk garis lurus (horizontal, vertikal, atau diagonal) dengan tiga bidaknya akan menjadi pemenang.
-5.  **Mulai Ulang**: Klik tombol "Mulai Ulang" di papan atau di pop-up kemenangan untuk kembali ke layar awal.
+1.  **Input Nama**: Masukin nama lo dan lawan lo, terus klik "Mulai Permainan".
+2.  **Pilih Avatar**: Sistem bakal nentuin siapa yang pilih duluan secara acak.
+3.  **Mulai Giliran**:
+      - **Nurunin Bidak**: Klik bidak di panel samping, terus klik kotak kosong di papan.
+      - **Mindahin Bidak**: Klik bidak lo yang udah di papan, terus klik kotak kosong lain buat pindah.
+4.  **Menang**: Dapetin 3 bidak dalam satu baris (horizontal, vertikal, atau diagonal).
+5.  **Rematch**: Klik "Mulai Ulang" buat ngulang permainan.
 
 -----
+🍃 🪨 🌸
