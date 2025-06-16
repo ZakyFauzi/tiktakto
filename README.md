@@ -1,6 +1,16 @@
-# Tik Tek Tok
+# Tik Tek Tok???
 
-Selamat datang di *Tik Tek Tok*! Ini bukan sekadar game Tic Tac Toe biasa. Proyek ini adalah imajinasi ulang dari game klasik yang menggabungkan elemen strategi seperti catur atau dam dengan sistem permainan yang dinamis dan antarmuka pengguna yang modern.
+[**🚀 Letsgoo mainn 🚀**](https://tiktektok.netlify.app/)
+
+-----
+
+Selamat datang di *Tik Tek Tok*\! Ini bukan sekadar game Tic Tac Toe biasa. Proyek ini adalah imajinasi ulang dari game klasik yang menggabungkan elemen strategi seperti catur atau dam dengan sistem permainan yang dinamis dan antarmuka pengguna yang modern.
+
+## Live Demo
+
+Kamu bisa langsung mencoba game ini melalui link berikut:
+
+**[https://tiktektok.netlify.app/](https://tiktektok.netlify.app/)**
 
 ## Deskripsi
 
